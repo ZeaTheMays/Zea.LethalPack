@@ -1,5 +1,4 @@
-# Zea.LethalPack
-## [REQUIRES LURE TO WORK](https://github.com/Sulayre/WebfishingLure)
+# Zea's Lethal Company Cosmetic Pack [REQUIRES LURE TO WORK](https://github.com/Sulayre/WebfishingLure)
 
 # This Cosmetic Pack Includes:
 
