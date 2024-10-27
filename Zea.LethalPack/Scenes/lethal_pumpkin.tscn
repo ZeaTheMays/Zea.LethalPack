@@ -43,7 +43,7 @@ extents = Vector3( 1, 1, 1.62328 )
 script = ExtResource( 6 )
 
 [node name="pumpkin" type="MeshInstance" parent="."]
-transform = Transform( 1.49565, 0, 0, 0, 1.39002, 0, 0, 0, 1.49565, 0, 0.276449, 0.00646383 )
+transform = Transform( 1.48114, 0, 0, 0, 1.37653, 0, 0, 0, 1.48114, 0, 0.276449, 0.00646383 )
 mesh = SubResource( 322 )
 skeleton = NodePath("")
 material/0 = ExtResource( 4 )
@@ -71,7 +71,7 @@ region_enabled = true
 region_rect = Rect2( 0, 0, 32, 64 )
 
 [node name="Sprite3D2" type="Sprite3D" parent="."]
-transform = Transform( 0.973857, 0, 0.227161, 0, 1, 0, -0.227161, 0, 0.973857, 0.159, 0.351, 0.676 )
+transform = Transform( 0.973857, 0, 0.227161, 0, 1, 0, -0.227161, 0, 0.973857, 0.150656, 0.351, 0.676 )
 texture = ExtResource( 5 )
 region_enabled = true
 region_rect = Rect2( 32, 0, 32, 64 )
