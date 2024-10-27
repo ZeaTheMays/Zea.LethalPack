@@ -10,7 +10,7 @@
 
 [resource]
 script = ExtResource( 1 )
-name = "Backtank"
+name = "Oxygen Tank"
 desc = "Breathe!"
 title = ""
 icon = ExtResource( 7 )
