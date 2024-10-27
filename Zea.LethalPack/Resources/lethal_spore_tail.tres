@@ -1,0 +1,28 @@
+[gd_resource type="Resource" load_steps=6 format=2]
+
+[ext_resource path="res://Resources/Scripts/cosmetic_resource.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Models/Cosmetics/rig_main_updated.tres" type="Skin" id=2]
+[ext_resource path="res://mods/Zea.LethalPack/Assets/Models/lethal_spore_lizard_tail.tres" type="ArrayMesh" id=3]
+[ext_resource path="res://mods/Zea.LethalPack/Assets/Materials/lethal_purple.tres" type="Material" id=4]
+[ext_resource path="res://mods/Zea.LethalPack/Assets/Textures/Icons/cosmetic_icon6.png" type="Texture" id=5]
+
+[resource]
+script = ExtResource( 1 )
+name = "Spore Tail"
+desc = "Scared...."
+title = ""
+icon = ExtResource( 5 )
+mesh = ExtResource( 3 )
+species_alt_mesh = [  ]
+mesh_skin = ExtResource( 2 )
+secondary_material = ExtResource( 4 )
+main_color = Color( 1, 1, 1, 1 )
+body_pattern = [  ]
+mirror_face = true
+flip = false
+allow_blink = true
+category = "tail"
+cos_internal_id = 0
+in_rotation = false
+chest_reward = false
+cost = 10

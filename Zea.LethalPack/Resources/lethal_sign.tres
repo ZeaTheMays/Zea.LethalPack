@@ -1,0 +1,32 @@
+[gd_resource type="Resource" load_steps=8 format=2]
+
+[ext_resource path="res://Resources/Scripts/cosmetic_resource.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Models/Cosmetics/rig_main_updated.tres" type="Skin" id=2]
+[ext_resource path="res://mods/Zea.LethalPack/Assets/Materials/lethal_red.tres" type="Material" id=3]
+[ext_resource path="res://mods/Zea.LethalPack/Assets/Materials/lethal_white.tres" type="Material" id=4]
+[ext_resource path="res://mods/Zea.LethalPack/Assets/Models/lethal_sign.tres" type="ArrayMesh" id=5]
+[ext_resource path="res://mods/Zea.LethalPack/Assets/Materials/lethal_dark_gray.tres" type="Material" id=6]
+[ext_resource path="res://mods/Zea.LethalPack/Assets/Textures/Icons/cosmetic_icon1.png" type="Texture" id=7]
+
+[resource]
+script = ExtResource( 1 )
+name = "Stop Sign"
+desc = "Bonk!"
+title = ""
+icon = ExtResource( 7 )
+mesh = ExtResource( 5 )
+species_alt_mesh = [  ]
+mesh_skin = ExtResource( 2 )
+material = ExtResource( 4 )
+secondary_material = ExtResource( 6 )
+third_material = ExtResource( 3 )
+main_color = Color( 1, 1, 1, 1 )
+body_pattern = [  ]
+mirror_face = true
+flip = false
+allow_blink = true
+category = "accessory"
+cos_internal_id = 0
+in_rotation = false
+chest_reward = false
+cost = 10
