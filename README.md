@@ -1,6 +1,6 @@
-[REQUIRES LURE TO WORK](https://github.com/Sulayre/WebfishingLure)
+# [REQUIRES LURE TO WORK](https://github.com/Sulayre/WebfishingLure)
 
-# This Cosmetic Pack Includes:
+# Zea's Lethal Company Cosmetic Pack
 
 ## Cosmetics:
 - 4 Colored Jumpsuits: Orange, Purple, Green and Yellow
