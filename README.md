@@ -1,2 +1,2 @@
 # Zea.LethalPack
-Lethal Company Cosmetic Pack for WEBFISHING
+## [REQUIRES LURE TO WORK](https://github.com/Sulayre/WebfishingLure)
