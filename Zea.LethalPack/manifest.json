@@ -1,0 +1,5 @@
+{
+    "Id": "Zea.LethalPack",
+    "PackPath": "zea.LethalPack.pck",
+    "Dependencies" : ["Sulayre.Lure"]
+}
