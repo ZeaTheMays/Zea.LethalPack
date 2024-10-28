@@ -1,3 +1,4 @@
+# [GO TO THE RELEASES PAGE](https://github.com/ZeaTheMays/Zea.LethalPack/releases)
 # [REQUIRES LURE TO WORK](https://github.com/Sulayre/WebfishingLure)
 
 # Zea's Lethal Company Cosmetic Pack
