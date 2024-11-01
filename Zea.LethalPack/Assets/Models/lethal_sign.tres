@@ -1,8 +1,6 @@
-[gd_resource type="ArrayMesh" load_steps=4 format=2]
+[gd_resource type="ArrayMesh" load_steps=2 format=2]
 
 [ext_resource path="res://mods/Zea.LethalPack/Assets/Materials/lethal_red.tres" type="Material" id=1]
-[ext_resource path="res://Export/Material_001.material" type="Material" id=2]
-[ext_resource path="res://Export/Material_002.material" type="Material" id=3]
 
 [resource]
 resource_name = "lethal pack_Circle001"
@@ -13,7 +11,6 @@ surfaces/0 = {
 "blend_shape_data": [  ],
 "format": 2194903,
 "index_count": 138,
-"material": ExtResource( 2 ),
 "primitive": 4,
 "skeleton_aabb": [ AABB( 0, 0, 0, -1, -1, -1 ), AABB( -0.616342, 0.185106, -0.234211, 0.484377, 0.475169, 0.0942459 ) ],
 "vertex_count": 72
@@ -25,7 +22,6 @@ surfaces/1 = {
 "blend_shape_data": [  ],
 "format": 2194903,
 "index_count": 240,
-"material": ExtResource( 3 ),
 "primitive": 4,
 "skeleton_aabb": [ AABB( 0, 0, 0, -1, -1, -1 ), AABB( -0.596396, 0.28744, -0.215875, 1.05348, 0.616834, 0.145412 ) ],
 "vertex_count": 134

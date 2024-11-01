@@ -1,8 +1,4 @@
-[gd_resource type="ArrayMesh" load_steps=4 format=2]
-
-[ext_resource path="res://Export/Material_003.material" type="Material" id=1]
-[ext_resource path="res://Export/Material_001.material" type="Material" id=2]
-[ext_resource path="res://Export/Material_002.material" type="Material" id=3]
+[gd_resource type="ArrayMesh" format=2]
 
 [resource]
 resource_name = "lethal pack_Cylinder"
@@ -13,7 +9,6 @@ surfaces/0 = {
 "blend_shape_data": [  ],
 "format": 2194903,
 "index_count": 468,
-"material": ExtResource( 2 ),
 "primitive": 4,
 "skeleton_aabb": [ AABB( 0.192711, 0.265995, -0.12093, 0.1241, 0.220168, 0.200241 ) ],
 "vertex_count": 262
@@ -25,7 +20,6 @@ surfaces/1 = {
 "blend_shape_data": [  ],
 "format": 2194903,
 "index_count": 78,
-"material": ExtResource( 3 ),
 "primitive": 4,
 "skeleton_aabb": [ AABB( 0.217639, 0.314392, -0.0704895, 0.0880929, 0.141881, 0.124088 ) ],
 "vertex_count": 52
@@ -37,7 +31,6 @@ surfaces/2 = {
 "blend_shape_data": [  ],
 "format": 2194903,
 "index_count": 18,
-"material": ExtResource( 1 ),
 "primitive": 4,
 "skeleton_aabb": [ AABB( 0.200625, 0.278851, -0.109564, 0.0831887, 0.0568423, 0.0655381 ) ],
 "vertex_count": 8

@@ -1,8 +1,6 @@
-[gd_resource type="ArrayMesh" load_steps=4 format=2]
+[gd_resource type="ArrayMesh" load_steps=2 format=2]
 
 [ext_resource path="res://mods/Zea.LethalPack/Assets/Materials/lethal_black.tres" type="Material" id=1]
-[ext_resource path="res://Export/Material_002.material" type="Material" id=2]
-[ext_resource path="res://Export/Material_001.material" type="Material" id=3]
 
 [resource]
 resource_name = "lethal pack_Roundcube"
@@ -13,7 +11,6 @@ surfaces/0 = {
 "blend_shape_data": [  ],
 "format": 2194903,
 "index_count": 672,
-"material": ExtResource( 3 ),
 "primitive": 4,
 "skeleton_aabb": [ AABB( 0, 0, 0, -1, -1, -1 ), AABB( -0.207208, 0.523143, -0.27935, 0.414416, 0.324806, 0.209366 ) ],
 "vertex_count": 158
@@ -25,7 +22,6 @@ surfaces/1 = {
 "blend_shape_data": [  ],
 "format": 2194903,
 "index_count": 1062,
-"material": ExtResource( 2 ),
 "primitive": 4,
 "skeleton_aabb": [ AABB( 0, 0, 0, -1, -1, -1 ), AABB( -0.217912, 0.492046, -0.287614, 0.435825, 0.399769, 0.231848 ) ],
 "vertex_count": 260
