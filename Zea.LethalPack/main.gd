@@ -3,8 +3,29 @@ extends Node
 const ID = "Zea.LethalPack" 
 onready var Lure = get_node("/root/SulayreLure")
 
+var Mods = [
+	{"ModID": "Awesome Possum", "ModName": "awesomepossum", "Species": ["possum"]},
+	{"ModID": "GnarlyGnoll.Capybara", "ModName": "gnarly", "Species": ["capybara"]},
+	{"ModID": "RAYTRAC3RCosmetics", "ModName": "raytrac3r", "Species": ["penguin"]},
+	{"ModID": "YeenFishin", "ModName": "yeenbfishin", "Species": ["hyena"]},
+]
+
+var Cosmetics = ["mask", "antennae"]
+
+func assign_cosmetic_meshes():
+	for mod in Mods:
+		for species in mod["Species"]:
+			for cosmetic in Cosmetics:
+				var ModID = "Zea.LethalPack" 
+				var modname_cosmetic = ModID + ".lethal_" + cosmetic
+				var mod_id_species = mod["ModID"] + ".species_" + species
+				var model_path = "res://mods/Zea.LethalPack/Assets/Models/Compat/" + mod["ModName"] + "." + species + "." + cosmetic + ".tres"
+				
+				Lure.assign_cosmetic_mesh(ModID, modname_cosmetic, mod_id_species, model_path)
+
 func _ready():#
 	
+	assign_cosmetic_meshes()
 	Lure.add_content(ID,"lethal_backtank","mod://Resources/lethal_backtank.tres") 
 	Lure.add_content(ID,"lethal_jumpsuit1","mod://Resources/lethal_jumpsuit1.tres") 
 	Lure.add_content(ID,"lethal_jumpsuit2","mod://Resources/lethal_jumpsuit2.tres") 
